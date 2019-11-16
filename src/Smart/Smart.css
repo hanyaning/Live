@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ffffff;
+}
+.smartNav{
+    color: white;
+    height: 70px;
+    background-color: #3fcccb;
+}
+.smartNav p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+.smartNav img{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
+.smartList{
+    height: 50px;
+    background-color: #ffffff;
+    position: relative;
+}
+.smartList ul{
+    display: flex;
+}
+.smartList ul li{
+    display: inline;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 0px 0px 0px 13.5px;
+}
+.smart_btn{
+    position: absolute;
+    top: 0%;
+    right:0%;
+}
+.smart_content{
+    background-color: #eeeeee;
+    height: 700px;
+}
+.smart_List1{
+    height: 200px;
+}
+/* 布局 */
+.flex-container {
+    margin: 0 15px;
+  }
+  .flex-container .inline {
+    width: 80px!important;
+    margin: 9px 9px 9px 0;
+  }
+  .flex-container .small {
+    height: 20px!important;
+    line-height: 20px!important;
+  }
+  .sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+  }
+  .placeholder1 {
+    background-color: red;
+    color: #bbb;
+    height: 150px;
+    width: 150px;
+    margin:20px 0px 0px 15px ;
+  }
+  .smart_box{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top:110px;
+    left: 0px;
+    background-color: #ffffff;
+  }
+  .smart_image{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      top: -7px;
+      left: 3px;
+  }
+  .smart_span{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+  }
+  .smart_image2{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 4px;
+      left: 120px;
+  }
